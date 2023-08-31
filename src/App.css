@@ -6,7 +6,7 @@
 }
 body {
   font-family: "Roboto", sans-serif;
-  /* background-color: #f8f8f8; */
+/* background-color: #f8f8f8; */
   background-color: #858585;
 }
 /*------------global-----------*/
@@ -65,7 +65,6 @@ button:hover {
   color: #fff;
 }
 
-
 #heading {
   text-align: center;
   padding: 40px 0;
@@ -86,9 +85,8 @@ p {
   font-size: 18px;
 }
 
-
 .back {
-  background-image: url("../public/Images/about2.jpg");
+  background-image: url("../public/Images/about_bg.jpg");
   background-color: #858585;
   background-size: cover;
   background-attachment: fixed;
