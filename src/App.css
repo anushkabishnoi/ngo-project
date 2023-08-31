@@ -6,7 +6,7 @@
 }
 body {
   font-family: "Roboto", sans-serif;
-/* background-color: #f8f8f8; */
+  /* background-color: #f8f8f8; */
   background-color: #858585;
 }
 /*------------global-----------*/
@@ -85,33 +85,34 @@ p {
   font-size: 18px;
 }
 
-.back {
-  background-image: url("../public/Images/about_bg.jpg");
-  background-color: #858585;
+.centre {
+  /* background-color: black; */
+  background-image: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)),
+    url("../public/Images/about_bg.jpg");
+  background-blend-mode: multiply;
   background-size: cover;
-  background-attachment: fixed;
   position: absolute;
   top: 0;
   left: 0;
   z-index: -1;
   width: 100%;
   height: 100vh;
-  padding-top: 30%;
+  padding-top: 27%;
   padding-right: 50px;
   color: #fff;
   text-align: center;
 }
-.back h1 {
-  font-size: 100px;
-  font-weight: 400;
+.centre h1 {
+  font-size: 4rem;
+  font-weight: 900;
 }
-.back h2 {
+.centre h2 {
   font-weight: 500;
   font-size: 17px;
   text-transform: uppercase;
 }
 .margin {
-  margin-top: 40.3%;
+  margin-top: 50%;
 }
 .grid {
   display: grid;
@@ -155,7 +156,7 @@ p {
   .grid {
     grid-template-columns: repeat(2, 1fr);
   }
-  .back {
+  .centre {
     background-position: center;
     padding-top: 50%;
     height: 80vh;
