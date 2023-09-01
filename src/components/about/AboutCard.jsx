@@ -9,7 +9,7 @@ const AboutCard = () => {
       <section className="aboutHome">
         <div className="container flexSB">
           <div className="left row">
-            <img src="./Images/about1.jpg" alt="" />
+            <img src="./Images/aboutCard.jpg" alt="" />
           </div>
           <div className="right row">
             <Heading

@@ -8,7 +8,7 @@ const About = () => {
       <section className="centre">
         <h1>"Uniting NGOs, Amplifying Impact: Where Collaboration Ignites Change."</h1>
       </section>
-      <div className="margin"></div>
+      {/* <div className="margin"></div> */}
       <AboutCard />
     </>
   );
