@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import Head from "./Head";
 import "./Header.css";
@@ -7,7 +7,7 @@ const Header = () => {
   const [click, setClick] = useState(false);
 
   return (
-    <>
+    <div className="container">
       <Head />
       <header>
         <nav className="flexSB">
@@ -33,7 +33,7 @@ const Header = () => {
             </li>
           </ul>
           <div className="start">
-            <div className="button">GET START</div>
+            <div className="button">GET STARTED</div>
           </div>
           <button className="toggle" onClick={() => setClick(!click)}>
             {click ? (
@@ -44,7 +44,7 @@ const Header = () => {
           </button>
         </nav>
       </header>
-    </>
+    </div>
   );
 };
 
