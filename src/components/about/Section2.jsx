@@ -1,5 +1,5 @@
 import Heading from "../common/heading/Heading";
-import "./About.css";
+import "./about.css";
 // import { homeAbout } from "../../data";
 // import Awrapper from "./Awrapper";
 
