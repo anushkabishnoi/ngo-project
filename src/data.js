@@ -3,21 +3,18 @@ export const sliderItems=[
     id: 1,
     img: "https://images.unsplash.com/photo-1533254012848-644c18f39289?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80",
     title: "Protsahan: Catalyst for Educational Empowerment",
-    subtitle: "Educate and Elevate Together",
     content:"Empowering Education: Join Our Journey to Transform Learning Worldwide"
   },
   {
     id: 2,
     img: "https://images.unsplash.com/photo-1519340241574-2cec6aef0c01?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2232&q=80",
     title: "Protsahan: Catalyst for Educational Empowerment",
-    subtitle: "Educate and Elevate Together",
     content:"Empowering Education: Join Our Journey to Transform Learning Worldwide"
   },
   {
     id: 3,
     img: "https://smlycdn.akamaized.net/data/product2/2/112c7cf861f3b598158a2b961ed62215b28d5012_l.jpg",
     title: "Protsahan: Catalyst for Educational Empowerment",
-    subtitle: "Educate and Elevate Together",
     content:"Empowering Education: Join Our Journey to Transform Learning Worldwide"
   },
 ]
