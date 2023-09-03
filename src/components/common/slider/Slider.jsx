@@ -29,6 +29,7 @@ const Arrow = styled.div`
   cursor: pointer;
   opacity: 0.5;
   z-index: 2;
+  color: black;
 `;
 const Wrapper = styled.div`
   height: 100%;

@@ -6,10 +6,14 @@ import "./Header.css";
 const Header = () => {
   const [click, setClick] = useState(false);
 
+  const headerStyle={
+    width:"96vw",
+  }
+
   return (
     <div className="container">
       <Head />
-      <header>
+      <header style={headerStyle}>
         <nav className="flexSB">
           <ul
             className={click ? "mobile-nav" : "flexSB "}
