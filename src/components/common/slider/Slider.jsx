@@ -57,6 +57,7 @@ const InfoContainer = styled.div`
 const Title = styled.h1`
   font-size: 60px;
   text-transform: capitalize;
+  margin-top: 17%;
 `;
 const Subtitle = styled.p`
   margin: 2% 0;
@@ -92,7 +93,6 @@ const Slider = () => {
     if (direction === "left") {
       setSlideIndex(slideIndex > 0 ? slideIndex - 1 : 2);
     } else {
-      // right arrow
       setSlideIndex(slideIndex < 2 ? slideIndex + 1 : 0);
     }
   };
