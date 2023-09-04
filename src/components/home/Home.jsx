@@ -1,6 +1,6 @@
 // import {  FaTwitter, FaLinkedin, FaGithub } from "react-icons/fa";
 import Hero from "./hero/Hero";
-import OurTeam from "../ourTeam/OurTeam";
+// import OurTeam from "../ourTeam/OurTeam";
 
 const sectionStyle = {
   height: "100vh",
@@ -17,7 +17,7 @@ const Home = () => {
     <>
       <Hero />
       <div style={sectionStyle}>
-        <OurTeam/>
+        {/* <OurTeam/> */}
       </div>
     </>
   );
