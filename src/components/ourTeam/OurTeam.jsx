@@ -7,6 +7,7 @@ const OurTeam = () => {
   return (
     <section className="section-white">
       <div className="container">
+      <div class="profile-card">
         <div className="img">
           <img src="./Images/pragya.jpeg" alt="" />
         </div>
@@ -15,7 +16,6 @@ const OurTeam = () => {
           <p>Full Stack Developer</p>
           <p>Learning Cyber Security</p>
           <div className="social-links">
-            <div className="socialIcons">
             <a
             href="https://github.com/anushkabishnoi"
             target="_blank"
@@ -49,16 +49,15 @@ const OurTeam = () => {
           </div>
         </div>
 
-        <div className="profile-card">
+        <div class="profile-card">
           <div className="img">
-            <img src="" alt="" />
+            <img src="./Images/pragya.jpeg" alt="" />
           </div>
           <div className="caption">
           <h3>Pragya Shah</h3>
           <p>Full Stack Developer</p>
           <p>DevOps Developer</p>
           <div className="social-links">
-            <div className="socialIcons">
             <a
             href="https://github.com/Pragyashah09"
             target="_blank"
@@ -93,7 +92,6 @@ const OurTeam = () => {
         </div>
 
 
-        </div>
         </div>
     </section>
   )

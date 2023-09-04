@@ -1,6 +1,6 @@
 import Slider from "../../common/slider/Slider";
 import "./Hero.css";
-
+import OurTeam from "../../ourTeam/OurTeam";
 const sectionStyle = {
   height: "100vh",
   display: "flex",
@@ -18,6 +18,7 @@ const Hero = () => {
       </section>
       {/* <div className="margin" style={margin}></div> */}
       {/* <section style={sectionStyle}></section> */}
+      <OurTeam/>
     </>
   );
 };
