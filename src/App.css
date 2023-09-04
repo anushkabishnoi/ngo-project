@@ -10,10 +10,10 @@ body {
   color: white;
 }
 /*------------global-----------*/
-.container {
+/* .container {
   max-width: 85%;
   margin: auto;
-}
+} */
 .flexSB {
   display: flex;
   justify-content: space-between;

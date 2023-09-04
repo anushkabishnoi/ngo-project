@@ -1,14 +1,14 @@
 const Head = () => {
-  const logoStyle = {
-    position: "absolute",
-    left: "10%",
-  };
+  // const logoStyle = {
+  //   position: "absolute",
+  //   left: "10%",
+  // };
   return (
     <>
-      <section className="head">
-        <div className="container flexSB">
-          <div className="logo" style={logoStyle}>
-            <h1>Protsahan</h1>
+      <section className="py-12 color-white">
+        <div className="absolute top-2 left-1 z-100 w-full flexSB">
+          <div className="sticky left-40 top-10" >
+            <h1 className="text-4xl font-black">Protsahan</h1>
             <span>EDUCATE AND ELEVATE TOGETHER</span>
           </div>
           <div className="social">
