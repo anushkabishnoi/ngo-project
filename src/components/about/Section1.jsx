@@ -1,17 +1,8 @@
-const sectionStyle = {
-  height: "100vh",
-  display: "flex",
-  justifyContent: "center",
-  alignItems: "center",
-  backgroundImage: "./Images/about_bg.jpg",
-  paddingBottom: "10%",
-};
-
 const AboutHero = ({ title }) => {
   return (
-    <section className="centre" style={sectionStyle}>
+    <section className="centre h-screen flex justify-center items-center pb-40" >
       <h1>
-        "Uniting NGOs, Amplifying Impact: Where Collaboration Ignites Change."
+        {title}
       </h1>
     </section>
   );

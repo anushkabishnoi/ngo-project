@@ -89,7 +89,6 @@ p {
   /* background-color: black; */
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("../public/Images/about_bg.jpg");
-  background-blend-mode: multiply;
   background-size: cover;
   position: absolute;
   top: 0;

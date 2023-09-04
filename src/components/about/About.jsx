@@ -5,7 +5,7 @@ import Section from "./Section3";
 const About = () => {
   return (
     <>
-      <AboutHero />
+      <AboutHero title={"Uniting NGOs, Amplifying Impact: Where Collaboration Ignites Change."}/>
       <AboutCard />
       <Section
         title1={"Mission"}
