@@ -1,4 +1,4 @@
-import "./About.css";
+// import "./About.css";
 import AboutHero from "./Section1";
 import AboutCard from "./Section2";
 import Section from "./Section3";
