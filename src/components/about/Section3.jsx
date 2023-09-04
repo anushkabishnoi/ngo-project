@@ -23,12 +23,11 @@ const Section = ({ title1, content1, title2, content2 }) => {
     display: "flex",
     justifyContent: "center",
     alignItems: "center",
-    // background: "rgba(200, 174, 125,0.9)",
     overflow: "hidden",
     marginTop: "9%",
   };
   const imgContainerStyle1 = {
-    height: "70vh",
+    height: "90vh",
     overflow: "hidden",
     transition: "transform 0.8s ease-in-out",
     transform: isHovered1 ? "translateY(-25%)" : "translateY(0)",
@@ -39,7 +38,7 @@ const Section = ({ title1, content1, title2, content2 }) => {
     justifyContent: "center",
   };
   const imgContainerStyle2 = {
-    height: "70vh",
+    height: "90vh",
     overflow: "hidden",
     transition: "transform 0.8s ease-in-out",
     transform: isHovered2 ? "translateY(-25%)" : "translateY(0)",
@@ -50,7 +49,7 @@ const Section = ({ title1, content1, title2, content2 }) => {
     justifyContent: "center",
   };
   const imgStyle = {
-    // width: "100%",
+    width: "100%",
     height: "100%",
   };
   const textContainerStyle1 = {
@@ -66,12 +65,15 @@ const Section = ({ title1, content1, title2, content2 }) => {
     transition: "opacity 0.8s ease-in-out",
   };
   const hoverCard = {
+    marginTop:"15%",
+    borderRadius:"15px",
+    background:"",
     flex: 1,
     overflow: "hidden",
   };
   return (
     <section style={sectionStyle}>
-      <div styles={hoverCard}>
+      <div style={hoverCard}>
         <div
           style={imgContainerStyle1}
           onMouseEnter={handleMouseEnter1}
@@ -84,7 +86,7 @@ const Section = ({ title1, content1, title2, content2 }) => {
           <p>{content1}</p>
         </div>
       </div>
-      <div styles={hoverCard}>
+      <div style={hoverCard}>
         <div
           style={imgContainerStyle2}
           onMouseEnter={handleMouseEnter2}
