@@ -70,6 +70,25 @@
     color: #333;
     transition: all .4s;
 }
-.caption .social-links i:hover{
-    color: #0c52a1;
+.caption .social-links{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    .icon {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background-color: var(--black);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      transition: all ease 0.3s;
+      &:hover {
+        box-shadow: 0 0 0.625em #1eb2a6;
+        color: #1eb2a6;
+      }
+    }
 }
