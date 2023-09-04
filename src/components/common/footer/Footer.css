@@ -1,6 +1,6 @@
 .footer {
-    background-color: var(--black3);
-    color: #fff; 
+    background-color: #fff;
+    color: #333; 
     padding: 20px;
     text-align: center;
   }
@@ -42,6 +42,7 @@
     justify-content: center;
     gap: 10px;
     .icon {
+      color: #333;
       width: 50px;
       height: 50px;
       border-radius: 50%;

@@ -55,7 +55,7 @@
 }
 .caption h3{
     font-size: 21px;
-    color: #0c52a1;
+    color: #fff;
     font-weight: 600;
 }
 .caption p{
@@ -77,6 +77,7 @@
     justify-content: center;
     gap: 10px;
     .icon {
+        color: #333;
       width: 40px;
       height: 40px;
       border-radius: 50%;
