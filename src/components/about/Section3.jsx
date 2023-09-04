@@ -49,11 +49,12 @@ const Section = ({ title1, content1, title2, content2 }) => {
     justifyContent: "center",
   };
   const imgStyle = {
-    width: "100%",
+    width: "90%",
     height: "100%",
   };
   const textContainerStyle1 = {
     flex: "1",
+    padding:"",
     margin: "0 10%",
     opacity: isHovered1 ? 1 : 0, // Show text when hovered, hide when not
     transition: "opacity 0.8s ease-in-out",
