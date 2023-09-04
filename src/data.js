@@ -9,7 +9,7 @@ export const sliderItems = [
   {
     id: 2,
     img: "https://images.unsplash.com/photo-1477511614005-61bd8b91d218?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80",
-    title: "\"Education is the key to unlocking the golden door of freedom and opportunity.\" - George Washington Carver",
+    title: "\"Educate for a brighter tomorrow.\"",
     content:
       "Empowering Education: Join Our Journey to Transform Learning Worldwide",
   },

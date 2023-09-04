@@ -12,7 +12,7 @@ const subtitleStyle = {
   fontWeight: "200",
 };
 const titleStyle = {
-  fontWeight: "900",
+  // fontWeight: "900",
   fontSize: "5rem",
   color: "#1eb2a6",
 };
@@ -26,7 +26,7 @@ const Heading = ({ subtitle, title, content }) => {
       <div style={headingStyle}>
         <div style={cardStyle}>
           <h3 style={subtitleStyle}>{subtitle} </h3>
-          <h1 style={titleStyle}>{title} </h1>
+          <h1 className="font-black" style={titleStyle}>{title} </h1>
           <p style={pStyle}>{content}</p>
         </div>
       </div>

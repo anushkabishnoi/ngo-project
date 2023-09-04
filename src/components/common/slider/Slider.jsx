@@ -56,9 +56,9 @@ const InfoContainer = styled.div`
   padding: 0 7%;
 `;
 const Title = styled.h1`
-  font-size: 60px;
+  // font-size: 60px;
   text-transform: capitalize;
-  margin-top: 17%;
+  // margin-top: 17%;
 `;
 const Subtitle = styled.p`
   margin: 2% 0;
@@ -117,7 +117,7 @@ const Slider = () => {
           <Slide bg={item.img} key={item.id}>
             <InfoContainer>
               <Subtitle>{item.subtitle}</Subtitle>
-              <Title>{item.title}</Title>
+              <Title className="font-semibold mt-[20%] text-6xl">{item.title}</Title>
               <Content>{item.content}</Content>
               <Button>Get Started Now!</Button>
             </InfoContainer>
