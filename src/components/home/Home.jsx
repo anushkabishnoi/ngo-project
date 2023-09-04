@@ -1,4 +1,4 @@
-import OurTeam from "../ourTeam/OurTeam";
+
 import Hero from "./hero/Hero";
 
 const sectionStyle = {
@@ -15,7 +15,6 @@ const Home = () => {
     <>
       <Hero />
       <div style={sectionStyle}>
-        <OurTeam />
       </div>
     </>
   );
