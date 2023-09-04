@@ -3,8 +3,8 @@ import Heading from "../common/heading/Heading";
 // import Awrapper from "./Awrapper";
 
 const aboutHomeStyle = {
-  marginTop: "55%",
-  height: "90vh",
+  // marginTop: "55%",
+  // height: "90vh",
   display: "grid",
   gridTemplateColumns: "repeat(2, 1fr)",
 };
@@ -24,7 +24,7 @@ const textStyle = {
 const AboutCard = () => {
   return (
     <>
-      <section style={aboutHomeStyle}>
+      <section className="mt-[54.7%] h-screen" style={aboutHomeStyle}>
         <div style={imgContainerStyle}>
           <img src="./Images/aboutCard.jpg" style={imgStyle} alt="" />
         </div>
