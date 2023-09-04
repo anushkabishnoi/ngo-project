@@ -1,22 +1,3 @@
-/* .footer {
-  background-color: var(--black3);
-  padding: 50px 0;
-  color: white;
-  position: relative;
-  .contentWrapper {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-  }
-  .menuItems {
-    list-style-type: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 15px;
-    margin-bottom: 20px;
-  }
-} */
 .footer {
     background-color: var(--black3);
     color: #fff; 
