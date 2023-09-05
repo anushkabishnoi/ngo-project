@@ -1,10 +1,8 @@
 /* Add your CSS classes to style the form elements */
-*{
-  margin-top: 6px;
-}
+
 form {
     max-width: 430px;
-    margin: 0 auto;
+    margin: 10px auto;
     padding: 20px;
     border: 1px solid #333;
     background-color: #333;
