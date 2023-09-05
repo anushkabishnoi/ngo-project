@@ -24,7 +24,7 @@ const textStyle = {
 const AboutCard = () => {
   return (
     <>
-      <section className="mt-[54.7%] h-screen" style={aboutHomeStyle}>
+      <section className="mt-t-50 h-screen" style={aboutHomeStyle}>
         <div style={imgContainerStyle}>
           <img src="./Images/aboutCard.jpg" style={imgStyle} alt="" />
         </div>

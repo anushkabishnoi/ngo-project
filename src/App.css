@@ -6,8 +6,8 @@
 }
 body {
   font-family: "Roboto", sans-serif;
-  background-color: black;
   color: white;
+  background: #E4E4D0;
 }
 /*------------global-----------*/
 /* .container {

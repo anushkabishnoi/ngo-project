@@ -68,13 +68,13 @@ const Section = ({ title1, content1, title2, content2 }) => {
   const hoverCard = {
     marginTop:"15%",
     borderRadius:"15px",
-    background:"",
     flex: 1,
     overflow: "hidden",
+    // background:"yellow",
   };
   return (
     <section style={sectionStyle}>
-      <div style={hoverCard}>
+      <div className="bg-orange-300" style={hoverCard}>
         <div
           style={imgContainerStyle1}
           onMouseEnter={handleMouseEnter1}
