@@ -1,38 +1,44 @@
-import React, { useRef } from "react";
-import emailjs from "@emailjs/browser";
+import React, { useRef, useState } from 'react';
+import emailjs from '@emailjs/browser';
+
+import "./Contact.css";
+
+const Result = () => {
+  return (
+    <p>Your message has been successfully sent.</p>
+  )
+}
 
 export const Contact = () => {
   const form = useRef();
+  const [result, showResult] = useState(false);
 
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs
-      .sendForm(
-        "service_edszruw",
-        "template_fvwh449",
-        form.current,
-        "YEvsBSFVkIAvFPV8Z"
-      )
-      .then(
-        (result) => {
+    emailjs.sendForm('service_fved4dq', 'template_1qmk29z', form.current, '26Q2dDmAkcB0yghVS')
+      .then((result) => {
           console.log(result.text);
-        },
-        (error) => {
+      }, (error) => {
           console.log(error.text);
-        }
-      );
+      });
+      form.current.reset();
+      showResult(true);
   };
 
   return (
     <form ref={form} onSubmit={sendEmail}>
-      <label>Name</label>
-      <input type="text" name="from_name" />
-      <label>Email</label>
-      <input type="email" name="from_email" />
+      <label>Full Name</label>
+      <input type="text" name="fullName" />
+      <label>Phone Number</label>
+      <input type="text" name="phone" required />
+      <label>Enter Email</label>
+      <input type="email" name="email" required />
       <label>Message</label>
-      <textarea name="message" />
+      <textarea className='message' name="message" required />
       <input type="submit" value="Send" />
+      <div className="row">{result ? <Result/> : null}
+      </div>
     </form>
   );
 };

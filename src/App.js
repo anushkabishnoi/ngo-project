@@ -8,17 +8,21 @@ import { Contact } from "./components/contact/Contact";
 
 function App() {
   return (
-    <>
-      <Router>
-        <Header />
-        <Switch>
-          <Route exact path="/" component={Home} />
-          <Route exact path="/about" component={About} />
-          <Route exact path="/contact" component={Contact} />
-        </Switch>
-        <Footer/>
-      </Router>
-    </>
+    <Router>
+      {/* Conditionally render Header and Footer */}
+      <Switch>
+        <Route exact path="/contact" component={Contact} />
+        <Route>
+          <Header />
+          <Switch>
+            <Route exact path="/" component={Home} />
+            <Route exact path="/about" component={About} />
+            {/* Add more routes for other pages */}
+          </Switch>
+          <Footer />
+        </Route>
+      </Switch>
+    </Router>
   );
 }
 
