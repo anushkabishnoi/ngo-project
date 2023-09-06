@@ -36,7 +36,6 @@ const Schemes = () => {
     card: {
       backgroundColor: 'white',
       padding: '50px',
-      borderRadius: '8px',
       boxShadow: '0 2px 4px rgba(0, 0, 0, 0.1)',
       transition: 'background-color 0.3s',
       color: 'black',
