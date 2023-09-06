@@ -34,7 +34,6 @@ const Footer = () => {
       </span>
     </a>
 
-
           <a
             href="https://twitter.com/PRAGYASHAH09"
             target="_blank"

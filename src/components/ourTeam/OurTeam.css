@@ -1,17 +1,17 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: Poppins;
-    background-color: #fff;
-}
-.container{
+/* .ourteam{
+    color: #fff;
+    font-size: 55px;
+    padding: 10px 10px 10px 10px;
+} */
+
+.team{
     width: 100%;
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 .profile-card{
     position: relative;
     width: 220px;
@@ -56,13 +56,14 @@
 }
 .caption h3{
     font-size: 21px;
-    color: #fff;
+    color: #333;
     font-weight: 600;
 }
 .caption p{
+    color: #333;
     font-size: 15px;
     font-weight: 500;
-    margin: 2px 0 12px 0;
+    margin: 2px 0 5px 0;
 }
 .caption .social-links i{
     font-size: 21px;

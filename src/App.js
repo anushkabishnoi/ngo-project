@@ -5,6 +5,9 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from "./components/home/Home";
 import About from "./components/about/About";
 import { Contact } from "./components/contact/Contact";
+import OurTeam from "./components/ourTeam/OurTeam";
+import Schemes from "./components/schemes/Schemes";
+
 
 function App() {
   return (
@@ -12,6 +15,8 @@ function App() {
       {/* Conditionally render Header and Footer */}
       <Switch>
         <Route exact path="/contact" component={Contact} />
+        <Route exact path="/schemes" component={Schemes} />
+        <Route exact path="/ourTeam" component={OurTeam} />
         <Route>
           <Header />
           <Switch>
