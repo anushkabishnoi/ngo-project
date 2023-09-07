@@ -1,56 +1,70 @@
-/* Schemes.css */
 .schemes {
-    display: flex;
-    align-items: center;
-  }
-  
-  .left {
-    flex: 1;
-    margin-right: 30px;
-  }
-  
-  .right {
-    flex: 2;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    padding-top: 7px;
-  }
-  
-  .card {
-    background-color: white;
-    padding: 35px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s, box-shadow 0.3s;
-    color: black;
-    width: 100%;
-    margin: 10px 0;
-    border-radius: 10px;
-  }
-  
-  .card p {
-    color: #333;
-    font-size: 16px;
-  }
-  
-  .card h2 {
-    font-weight: bold;
-    font-size: 24px;
-    margin-bottom: 10px;
-  }
-  
-  .card:hover {
-    background-color: #1eb2a6;
-    cursor: pointer;
-    transform: scale(1.05);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
-  }
-  
-  .image {
-    width: 600px;
-    height: 530px;
-    border-radius: 12px;
-    padding-top: 12px;
+  display: flex;
+  align-items: center;
+}
 
-  }
-  
+.left {
+  flex: 1;
+  margin-right: 30px;
+}
+
+.right {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding-top: 7px;
+}
+
+.card {
+  background-color: white;
+  padding: 35px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+  color: black;
+  width: 100%;
+  margin: 10px 0;
+  border-radius: 10px;
+  position: relative; 
+}
+
+.card p {
+  color: #333;
+  font-size: 16px;
+}
+
+.card h2 {
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.card a {
+  font-weight: bold;
+  font-size: 16px;
+  color: #1eb2a6;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.card a:hover {
+  color: #fff; 
+}
+
+.card:hover {
+  background-color: #1eb2a6;
+  cursor: pointer;
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.card:hover a {
+  color: #145e54; 
+}
+
+.image {
+  width: 740px;
+  height: 570px;
+  border-radius: 12px;
+  padding-top: 12px;
+}
