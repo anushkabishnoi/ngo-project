@@ -10,7 +10,8 @@ const aboutHomeStyle = {
 };
 const imgContainerStyle={
   background: "#E4E4D0",
-}
+} 
+
 const imgStyle = {
   width: "60%",
   margin: "10%",
@@ -18,7 +19,8 @@ const imgStyle = {
   marginLeft:"30%",
 };
 const textStyle = {
-  padding: "10%",
+  // padding: "30%",/
+  marginBottom:"20%",
 };
 
 const AboutCard = () => {

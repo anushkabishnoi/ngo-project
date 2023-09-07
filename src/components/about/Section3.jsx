@@ -24,7 +24,7 @@ const Section = ({ title1, content1, title2, content2 }) => {
     justifyContent: "center",
     alignItems: "center",
     overflow: "hidden",
-    marginTop: "9%",
+    marginTop: "19%",
   };
   const imgContainerStyle1 = {
     height: "90vh",
@@ -41,7 +41,7 @@ const Section = ({ title1, content1, title2, content2 }) => {
     height: "90vh",
     overflow: "hidden",
     transition: "transform 0.8s ease-in-out",
-    transform: isHovered2 ? "translateY(-25%)" : "translateY(0)",
+    transform: isHovered1 ? "translateY(-25%)" : "translateY(0)",
     flex: "1",
     margin: "0 10%",
     display: "flex",
@@ -54,7 +54,6 @@ const Section = ({ title1, content1, title2, content2 }) => {
   };
   const textContainerStyle1 = {
     flex: "1",
-    padding:"",
     margin: "0 10%",
     opacity: isHovered1 ? 1 : 0, // Show text when hovered, hide when not
     transition: "opacity 0.8s ease-in-out",
