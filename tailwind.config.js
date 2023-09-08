@@ -13,6 +13,7 @@ module.exports = {
       },
       spacing: {
         't-20': '20%',
+        
       },
     },
   },
