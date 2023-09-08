@@ -1,3 +1,10 @@
+export const homeHero=[
+  {
+    title:"Protsahan: Catalyst for Educational Empowerment",
+    content:
+      "Empowering Education: Join Our Journey to Transform Learning Worldwide",
+  }
+]
 export const sliderItems = [
   {
     id: 1,

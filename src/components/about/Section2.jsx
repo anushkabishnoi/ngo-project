@@ -11,7 +11,6 @@ const aboutHomeStyle = {
 const imgContainerStyle={
   background: "#E4E4D0",
 } 
-
 const imgStyle = {
   width: "60%",
   margin: "10%",
