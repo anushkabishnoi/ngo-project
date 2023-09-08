@@ -1,30 +1,34 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
 import "./Schemes.css";
 
 const Schemes = () => {
   const cardData = [
     {
-      title: 'Scholarship',
-      content: 'Unlocking Scholarships, Unlocking Potential.',
-      route: '/scholarship',
+      title: "Scholarship",
+      content: "Unlocking Scholarships, Unlocking Potential.",
+      route: "/scholarship",
     },
     {
-      title: 'NGO',
-      content: 'Empowering Communities, Changing Lives.',
-      route: '/ngo', // Route for the NGO card
+      title: "NGO",
+      content: "Empowering Communities, Changing Lives.",
+      route: "/ngo", // Route for the NGO card
     },
     {
-      title: 'Opportunities',
-      content: 'Opportunities are the stepping stones to success.',
-      route: '/opportunities',
+      title: "Opportunities",
+      content: "Opportunities are the stepping stones to success.",
+      route: "/opportunities",
     },
   ];
 
   return (
     <div className="schemes">
-      <div className="left">
-        <img className='image' src="./images/mission.jpg" alt="" />
+      <div className="left rounded-lg">
+        <img
+          className="image h-full"
+          src="./images/schemes_hero.jpg"
+          alt=""
+        />
       </div>
       <div className="right">
         {cardData.map((card, index) => (
