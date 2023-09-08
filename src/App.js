@@ -1,4 +1,5 @@
-import "./App.css";
+// App.js
+import React from "react";
 import Header from "./components/common/header/Header";
 import Footer from "./components/common/footer/Footer";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
@@ -8,6 +9,7 @@ import { Contact } from "./components/contact/Contact";
 import OurTeam from "./components/ourTeam/OurTeam";
 import Schemes from "./components/schemes/Schemes";
 import NGOPage from "./components/schemes/Ngo";
+import ScholarShip from "./components/schemes/Scholarship";
 
 function App() {
   return (
@@ -18,6 +20,7 @@ function App() {
         <Route exact path="/schemes" component={Schemes} />
         <Route exact path="/ourTeam" component={OurTeam} />
         <Route exact path="/ngo" component={NGOPage} />
+        <Route exact path="/scholarship" component={ScholarShip} />
         <Route>
           <Header />
           <Switch>
