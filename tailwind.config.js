@@ -9,11 +9,10 @@ module.exports = {
     },
     extend: {
       margin: {
-        "t-60": "60%",
+        "t-50": "50%",
       },
       spacing: {
         't-20': '20%',
-        
       },
     },
   },
