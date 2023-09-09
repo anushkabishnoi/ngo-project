@@ -1,16 +1,11 @@
-// OurTeam.js
-import React from "react";
 import { FaTwitter, FaLinkedin, FaGithub } from "react-icons/fa";
 import "./OurTeam.css";
 
 const OurTeam = () => {
   return (
-    <section className="section-white">
-      <div className="OurTeamName">
-        Our Team
-      </div>
+    <section className="section-team">
+      <div className="heading-team">Our Team</div>
       <div className="team">
-      
         <div className="profile-card">
           <div className="card-inner">
             <div className="card-front">
