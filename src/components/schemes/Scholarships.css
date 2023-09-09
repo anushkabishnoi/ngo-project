@@ -1,0 +1,25 @@
+.scholarships-body {
+  position: relative;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.scholarships-banner {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://www.volunteerforever.com/wp-content/uploads/2019/06/VF_TeachIndia.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 1%;
+}
+.scholarships-banner img {
+  height: 100%;
+  width: 100%;
+}
+.scholarships-banner-text {
+  font-size: 5rem;
+  font-weight: 600;
+  position: absolute;
+  top: 60%;
+  left: 130px;
+}
+
