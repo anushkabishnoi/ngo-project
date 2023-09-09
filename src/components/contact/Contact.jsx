@@ -51,6 +51,7 @@ export const Contact = () => {
         <textarea className="message" name="message" required />
         <input type="submit" value="Send" />
         <div className="row">{result ? <Result /> : null}</div>
+        
       </form>
     </div>
   );
