@@ -1,3 +1,10 @@
+.OurTeamName{
+  font-size: 61px;
+  padding-top: 90px;
+  color: #1eb2a6;
+  margin-left: 400px;
+  font-weight: 600;
+}
 
 .team {
   width: 100%;
@@ -14,7 +21,7 @@
   background-color: #1eb2a6;
   border-radius: 10px;
   perspective: 1000px;
-  margin: 0 90px;
+  margin: 0 120px;
 }
 
 .card-inner {
@@ -103,6 +110,8 @@
   color: #333;
   transition: all 0.4s;
 }
+
+
 .caption .social-links {
   margin-top: 10px;
   display: flex;

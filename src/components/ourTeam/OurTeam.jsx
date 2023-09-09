@@ -6,7 +6,11 @@ import "./OurTeam.css";
 const OurTeam = () => {
   return (
     <section className="section-white">
+      <div className="OurTeamName">
+        Our Team
+      </div>
       <div className="team">
+      
         <div className="profile-card">
           <div className="card-inner">
             <div className="card-front">
