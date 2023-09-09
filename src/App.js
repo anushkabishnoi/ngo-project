@@ -9,7 +9,7 @@ import OurTeam from "./components/ourTeam/OurTeam";
 import Schemes from "./components/schemes/Schemes";
 import NGOPage from "./components/schemes/Ngo";
 import ScholarShip from "./components/schemes/Scholarship";
-
+import opportunities from "./components/schemes/Opportunities";
 
 function App() {
   return (
@@ -21,6 +21,8 @@ function App() {
         <Route exact path="/ourTeam" component={OurTeam} />
         <Route exact path="/ngo" component={NGOPage} />
         <Route exact path="/scholarship" component={ScholarShip} />
+        <Route exact path="/opportunities" component={opportunities} />
+
         <Route>
           <Header />
           <Switch>
