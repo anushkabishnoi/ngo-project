@@ -11,7 +11,7 @@ const Header = () => {
   }
 
   return (
-    <div className="container">
+    <div className="containerHeader">
       <Head />
       <header style={headerStyle}>
         <nav className="flexSB">
