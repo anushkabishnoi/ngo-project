@@ -5,7 +5,6 @@ const items = [
     { id: 4, name: 'Bihar', state: 'Bihar', link: 'https://ngodarpan.gov.in/index.php/home/statewise_ngo/6089/10/1' },
     { id: 5, name: 'Chhattisgarh', state: 'Chhattisgarh', link: 'https://ngodarpan.gov.in/index.php/home/statewise_ngo/251/4/1' },
     { id: 6, name: 'Goa', state: 'Goa', link: 'https://ngodarpan.gov.in/index.php/home/statewise_ngo/320/30/1' },
-    
     { id: 7, name: 'Gujarat', state: 'Gujarat', link: 'https://ngodarpan.gov.in/index.php/home/statewise_ngo/8060/24/1' },
     { id: 8, name: 'Haryana', state: 'Haryana', link: 'https://ngodarpan.gov.in/index.php/home/statewise_ngo/4304/6/1' },
     { id: 9, name: 'Himachal Pradesh', state: 'Himachal Pradesh', link: 'https://www.example.com/himachal-pradesh' },
