@@ -32,8 +32,7 @@ const items = [
     { id: 32, name: 'Lakshadweep', state: 'Lakshadweep', link: 'https://ngodarpan.gov.in/index.php/home/statewise_ngo/7/31/1' },
     { id: 33, name: 'Delhi', state: 'Delhi', link: 'https://ngodarpan.gov.in/index.php/home/statewise_ngo/13346/7/1' }, 
     { id: 34, name: 'Ladakh', state: 'Ladakh', link: 'https://ngodarpan.gov.in/index.php/home/statewise_ngo/193/37/1' },
-    { id: 35, name: 'Lakshadweep', state: 'Lakshadweep', link: 'https://ngodarpan.gov.in/index.php/home/statewise_ngo/7/31/1' },
-    { id: 36, name: 'Puduncherry', state: 'Puducherry', link: 'https://ngodarpan.gov.in/index.php/home/statewise_ngo/355/34/1' },
+    { id: 35, name: 'Puduncherry', state: 'Puducherry', link: 'https://ngodarpan.gov.in/index.php/home/statewise_ngo/355/34/1' },
   ];
   
   export default items;
