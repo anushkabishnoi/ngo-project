@@ -42,7 +42,7 @@ export default function Opportunities() {
         <SwiperSlide>
           <div className="slide-content">
             <div className="image-container">
-              <img src="./Images/mission.jpg" alt="Image 1" />
+              <img src="./Images/jobs.jpg" alt="Image 1" />
             </div>
             <div className="text-container">
               <div className="slide-text">
@@ -61,7 +61,7 @@ export default function Opportunities() {
         <SwiperSlide>
         <div className="slide-content">
             <div className="image-container">
-              <img src="./Images/mission.jpg" alt="Image 2" />
+              <img src="./Images/schemes_hero.jpg" alt="Image 2" />
             </div>
             <div className="text-container">
               <div className="slide-text">
