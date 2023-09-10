@@ -3,6 +3,7 @@
   height: 100%;
   margin: 0;
   padding: 0;
+  color: black;
 }
 .scholarships-banner {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
@@ -23,3 +24,9 @@
   left: 130px;
 }
 
+.carousel-card{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 320px;
+  margin: auto 1rem;
+  text-align: center;
+}

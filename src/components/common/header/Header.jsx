@@ -6,9 +6,9 @@ import "./Header.css";
 const Header = () => {
   const [click, setClick] = useState(false);
 
-  const headerStyle={
-    width:"96vw",
-  }
+  const headerStyle = {
+    width: "96vw",
+  };
 
   return (
     <div className="containerHeader">
