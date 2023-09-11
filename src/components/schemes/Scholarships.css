@@ -23,10 +23,10 @@
   left: 130px;
 }
 
-.carousel-parent{
+.carousel-parent {
   margin-top: 100px;
 }
-.carousel-heading{
+.carousel-heading {
   color: #162238;
   position: absolute;
   top: 450px;
@@ -34,7 +34,7 @@
   font-weight: 300;
   font-size: 2.5rem;
 }
-.carousel-card{
+.carousel-card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 320px;
   margin: auto 1rem;
@@ -43,8 +43,9 @@
   min-height: 90%;
   padding-top: 10%;
   background-color: #162238;
+  padding: 30px;
 }
-.carousel-card:hover{
+.carousel-card:hover {
   background-color: cadetblue;
   transition: all 0.3s ease;
 }

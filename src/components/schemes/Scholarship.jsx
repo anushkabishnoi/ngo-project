@@ -3,7 +3,7 @@ import Footer from "../common/footer/Footer";
 import "./Scholarships.css";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import items from "../../ngodata";
+import items from "../../scholarshipdata";
 
 const Scholarship = () => {
   const responsive = {
@@ -34,7 +34,8 @@ const Scholarship = () => {
           </div>
         </div>
         <div className="carousel-heading text-highlght">
-          For Grade 5 and below
+          "Unlocking the Gift of Education: Discovering Scholarship
+          Opportunities"
         </div>
         <Carousel
           infinite={true}
