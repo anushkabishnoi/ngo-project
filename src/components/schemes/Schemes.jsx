@@ -26,7 +26,7 @@ const Schemes = () => {
       <div className="left rounded-lg">
         <img
           className="image h-full"
-          src="./images/schemes_hero.jpg"
+          src="./Images/schemes_hero.jpg"
           alt=""
         />
       </div>
