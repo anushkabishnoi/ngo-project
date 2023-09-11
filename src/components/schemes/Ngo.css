@@ -1,0 +1,50 @@
+.ngo-body {
+  position: relative;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.ngo-banner {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://www.csrmandate.org/wp-content/uploads/2022/12/Happy-feet-make-for-happy-kids_IndoSpace4-e1671784415138.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 1%;
+}
+.ngo-banner img {
+  height: 100%;
+  width: 100%;
+}
+.ngo-banner-text {
+  font-size: 5rem;
+  font-weight: 600;
+  position: absolute;
+  top: 60%;
+  left: 130px;
+}
+
+.carousel-parent {
+  margin-top: 100px;
+}
+.carousel-heading {
+  color: #162238;
+  position: absolute;
+  top: 450px;
+  left: 20px;
+  font-weight: 300;
+  font-size: 2.5rem;
+}
+.carousel-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 320px;
+  margin: auto 1rem;
+  margin-top: 20px;
+  text-align: center;
+  min-height: 90%;
+  padding-top: 10%;
+  background-color: #162238;
+}
+.carousel-card:hover {
+  background-color: cadetblue;
+  transition: all 0.3s ease;
+}

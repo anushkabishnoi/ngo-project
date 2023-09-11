@@ -1,44 +1,58 @@
-import React, { useState } from 'react';
-import items from '../../ngodata'; 
-import './Ngo.css'; 
+import Header from "../common/header/Header";
+import Footer from "../common/footer/Footer";
+import "./Ngo.css";
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
+import items from "../../ngodata";
 
-function Ngo() {
-  const [filter, setFilter] = useState(''); 
-  const [selectedItem, setSelectedItem] = useState(null);
-
-  const filteredItems = items.filter(item =>
-    filter === '' || item.state === filter
-  );
-
-  const handleItemClick = item => {
-    setSelectedItem(item);
+const NGO = () => {
+  const responsive = {
+    superLargeDesktop: {
+      breakpoint: { max: 4000, min: 3000 },
+      items: 5,
+    },
+    desktop: {
+      breakpoint: { max: 3000, min: 1024 },
+      items: 4,
+    },
+    tablet: {
+      breakpoint: { max: 1024, min: 464 },
+      items: 2,
+    },
+    mobile: {
+      breakpoint: { max: 464, min: 0 },
+      items: 1,
+    },
   };
-
   return (
-    <div>
-      <h1>Filter Items by State</h1>
-      <select onChange={e => setFilter(e.target.value)} value={filter}>
-        <option value="">All</option>
-        <option value="State A">State A</option>
-        <option value="State B">State B</option>
-        {/* Add more options for different states */}
-      </select>
-      <ul>
-        {filteredItems.map(item => (
-          <li key={item.id} onClick={() => handleItemClick(item)}>
-            {item.name} - {item.state}
-          </li>
-        ))}
-      </ul>
-      {selectedItem && (
-        <div>
-          <h2>{selectedItem.name}</h2>
-          <p>State: {selectedItem.state}</p>
-          <p>{selectedItem.content}</p>
+    <div className="ngo-body">
+      <Header />
+      <section className="h-screen">
+        <div className="ngo-banner h-2/4 relative">
+          <div className="ngo-banner-text">Discover NGOs on our Platform</div>
         </div>
-      )}
+        <div className="carousel-heading text-highlght">
+          "Unlocking the Gift of Education: Discovering Scholarship
+          Opportunities"
+        </div>
+        <Carousel
+          infinite={true}
+          className="carousel-parent"
+          responsive={responsive}
+        >
+          {items.map((item) => (
+            <div key={item.id} className="carousel-card">
+              <h1 className="text-5xl ">{item.name}</h1>
+              <a className="text-highlight" href={item.link}>
+                learn more
+              </a>
+            </div>
+          ))}
+        </Carousel>
+      </section>
+      <Footer className="footer-ngo" />
     </div>
   );
-}
+};
 
-export default Ngo;
+export default NGO;
