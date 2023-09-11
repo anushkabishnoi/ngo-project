@@ -1,14 +1,11 @@
-import React, { useRef, useState } from "react";
+import React, { useRef } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-
 import "./Opportunities.css";
-
 // import required modules
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
 
@@ -42,11 +39,12 @@ export default function Opportunities() {
         <SwiperSlide>
           <div className="slide-content">
             <div className="image-container">
-              <img src="./Images/jobs.jpg" alt="Image 1" />
+              <img src="./Images/award.jpg" alt="jobs" />
             </div>
             <div className="text-container">
               <div className="slide-text">
-              Your journey to success begins with the first step - searching for the right job in the diverse and dynamic landscape of India
+                Your journey to success begins with the first step - searching
+                for the right job in the diverse and dynamic landscape of India
               </div>
               <a
                 href="https://www.accenture.com/in-en/careers"
@@ -59,13 +57,15 @@ export default function Opportunities() {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-        <div className="slide-content">
+          <div className="slide-content">
             <div className="image-container">
-              <img src="./Images/schemes_hero.jpg" alt="Image 2" />
+              <img src="./Images/award2.jpg" alt="hero" />
             </div>
             <div className="text-container">
               <div className="slide-text">
-              Embrace the opportunity of education with open arms, for in the realm of all upcoming scholarships, your potential finds its wings to soar.
+                Embrace the opportunity of education with open arms, for in the
+                realm of all upcoming scholarships, your potential finds its
+                wings to soar.
               </div>
               <a
                 href="https://www.buddy4study.com/upcoming-scholarships/all-india"
@@ -78,13 +78,15 @@ export default function Opportunities() {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-        <div className="slide-content">
+          <div className="slide-content">
             <div className="image-container">
-              <img src="./Images/mission.jpg" alt="Image 2" />
+              <img src="./Images/award3.jpg" alt="mission" />
             </div>
             <div className="text-container">
               <div className="slide-text">
-              Stay curious, stay informed. In the realm of education, important news is the compass that guides students toward their destination of knowledge and growth.
+                Stay curious, stay informed. In the realm of education,
+                important news is the compass that guides students toward their
+                destination of knowledge and growth.
               </div>
               <a
                 href="https://www.indiatoday.in/education-today"
@@ -99,7 +101,7 @@ export default function Opportunities() {
         <SwiperSlide>
           <div className="slide-content">
             <div className="image-container">
-              <img src="./Images/anushka.jpg" alt="Image 4" />
+              <img src="./Images/award1.jpg" alt="anushka" />
             </div>
             <div className="text-container">
               <div className="slide-text">Text for Slide 1</div>

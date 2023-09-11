@@ -25,13 +25,15 @@
 
 .text-container {
   color: #000;
+  font-size: 1.6rem;
   flex: 1;
+  padding: 0 90px;
 }
 
-.text-container .slide-text{
+.text-container .slide-text {
   padding-bottom: 70px;
-  padding-left: 10px; 
-  padding-right: 20px; 
+  padding-left: 10px;
+  padding-right: 20px;
   font-weight: bold;
 }
 
@@ -39,9 +41,9 @@
   color: blue;
   text-decoration: underline;
   padding-left: 15px;
-  padding-top: 10px; 
-  padding-right: 20px; 
-  font-weight: bold; 
+  padding-top: 10px;
+  padding-right: 20px;
+  font-weight: bold;
 }
 
 .swiper-button-next,
