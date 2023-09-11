@@ -98,17 +98,6 @@ export default function Opportunities() {
             </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide>
-          <div className="slide-content">
-            <div className="image-container">
-              <img src="./Images/award1.jpg" alt="anushka" />
-            </div>
-            <div className="text-container">
-              <div className="slide-text">Text for Slide 1</div>
-            </div>
-          </div>
-        </SwiperSlide>
-        {/* Repeat similar structure for other slides */}
         <div className="autoplay-progress" slot="container-end">
           <svg viewBox="0 0 48 48" ref={progressCircle}>
             <circle cx="24" cy="24" r="20"></circle>

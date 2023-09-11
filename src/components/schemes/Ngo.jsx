@@ -32,8 +32,6 @@ const NGO = () => {
           <div className="ngo-banner-text">Discover NGOs on our Platform</div>
         </div>
         <div className="carousel-heading text-highlght">
-          "Unlocking the Gift of Education: Discovering Scholarship
-          Opportunities"
         </div>
         <Carousel
           infinite={true}

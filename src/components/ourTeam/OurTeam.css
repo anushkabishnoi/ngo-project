@@ -16,7 +16,7 @@
 }
 .team {
   width: 100%;
-  height: 100vh;
+  height: 80vh;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -24,8 +24,8 @@
 
 .profile-card {
   position: relative;
-  width: 320px;
-  height: 320px;
+  width: 290px;
+  height: 290px;
   background-color: #1eb2a6;
   border-radius: 10px;
   perspective: 1000px;
@@ -141,4 +141,16 @@
       color: #1eb2a6;
     }
   }
+}
+
+.guidename{
+  color: #333;
+  font-size: 25px;
+  font-weight: 500;
+  align-items: center;
+  padding-bottom: 8px;
+}
+
+.guidename .mentor{
+  color: #1eb2a6;
 }

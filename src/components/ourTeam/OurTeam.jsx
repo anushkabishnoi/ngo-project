@@ -97,7 +97,11 @@ const OurTeam = () => {
             </div>
           </div>
         </div>
+        
       </div>
+      <div className="guidename">
+          <h1><span className="mentor">Mentor  - </span>  Dr. Kamlesh Lakhwani Sir</h1>
+        </div>
     </section>
   );
 };

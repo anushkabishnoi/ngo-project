@@ -43,6 +43,7 @@
   min-height: 90%;
   padding-top: 10%;
   background-color: #162238;
+  padding-bottom: 10%;
 }
 .carousel-card:hover {
   background-color: cadetblue;
