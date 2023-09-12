@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import Head from "./Head";
 import "./Header.css";
 
@@ -9,27 +9,40 @@ const Header = () => {
   const headerStyle = {
     width: "96vw",
   };
+  const navStyle = {
+    flexDirection: click ? "column" : "row",
+  };
 
   return (
     <div className="containerHeader">
       <Head />
       <header style={headerStyle}>
-        <nav className="flexSB">
-          <ul onClick={() => setClick(false)}>
+        <nav className={`flexSB ${click ? "active" : ""}`} style={navStyle}>
+          <ul className="flex" onClick={() => setClick(false)}>
             <li>
-              <Link to="/">Home</Link>
+              <NavLink to="/" exact activeClassName="active">
+                Home
+              </NavLink>
             </li>
             <li>
-              <Link to="/schemes">Schemes</Link>
+              <NavLink to="/schemes" activeClassName="active">
+                Schemes
+              </NavLink>
             </li>
             <li>
-              <Link to="/about">About</Link>
+              <NavLink to="/about" activeClassName="active">
+                About
+              </NavLink>
             </li>
             <li>
-              <Link to="/ourTeam">Team</Link>
+              <NavLink to="/team" activeClassName="active">
+                Team
+              </NavLink>
             </li>
             <li>
-              <Link to="/contact">Contact</Link>
+              <NavLink to="/contact" activeClassName="active">
+                Contact
+              </NavLink>
             </li>
           </ul>
           <div className="start">
