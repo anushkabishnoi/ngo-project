@@ -18,7 +18,7 @@
 
 .image-container img {
   width: 350px;
-  height: 400px;
+  height: 470px;
   object-fit: cover;
   border-radius: 10px;
 }
@@ -96,4 +96,25 @@
   stroke-dashoffset: calc(125.6 * (1 - var(--progress)));
   stroke-dasharray: 125.6;
   transform: rotate(-90deg);
+}
+
+/* Media queries for responsive design */
+@media (max-width: 768px) {
+  .slide-content {
+    flex-direction: column; 
+  }
+
+  .image-container {
+    max-width: 100%; 
+    padding: 5% 0; 
+  }
+
+  .image-container img {
+    width: 100%; 
+    height: auto; 
+  }
+
+  .text-container {
+    padding: 0 20px; 
+  }
 }
