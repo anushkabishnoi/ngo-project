@@ -32,13 +32,11 @@ header .nav {
 }
 header li {
   margin-right: 40px;
+  z-index: 100;
 }
 header ul {
   padding: 30px 20px;
 }
- .link-container{
-  /* display: flex; */
-} 
 header ul li a {
   color: #fff;
   font-weight: 500;
