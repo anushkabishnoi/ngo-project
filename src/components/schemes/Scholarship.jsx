@@ -34,8 +34,8 @@ const Scholarship = () => {
           </div>
         </div>
         <div className="carousel-heading text-highlght">
-          {/* "Unlocking the Gift of Education: Discovering Scholarship
-          Opportunities" */}
+          "Unlocking the Gift of Education: Discovering Scholarship
+          Opportunities"
         </div>
         <Carousel
           infinite={true}
