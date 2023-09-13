@@ -154,3 +154,49 @@
 .guidename .mentor{
   color: #1eb2a6;
 }
+
+
+@media screen and (max-width: 768px) {
+
+  .heading-team{
+    padding-bottom: 100px;
+    margin-bottom: 100px;
+  }
+
+  .profile-card {
+    width: 220px; 
+    height: 220px; 
+    margin: 20px; 
+  }
+
+  .team {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around; 
+    height: auto; 
+    padding-top: 110px;
+    padding-bottom: 50px;
+  }
+
+  /* Reset card rotation on hover for smaller screens */
+  .card-inner {
+    transform: rotateY(0deg);
+  }
+
+  .icon {
+    width: 30px; /* Reduce icon size for smaller screens */
+    height: 30px;
+  }
+
+  .caption h3 {
+    font-size: 18px; /* Reduce font size for smaller screens */
+  }
+
+  .caption p {
+    font-size: 14px; /* Reduce font size for smaller screens */
+  }
+
+  .caption .social-links i {
+    font-size: 18px; /* Reduce social icon size for smaller screens */
+  }
+}
