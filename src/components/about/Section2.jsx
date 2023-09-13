@@ -1,6 +1,4 @@
 import Heading from "../common/heading/Heading";
-import { FaTwitter, FaGithub } from "react-icons/fa";
-import { FaEnvelope } from "react-icons/fa";
 
 const aboutHomeStyle = {
   display: "grid",
@@ -27,9 +25,6 @@ const textStyle = {
   borderRadius: "15px",
 };
 
-const footerStyle = {
-  marginTop: "6%",
-};
 
 const AboutCard = () => {
   return (
@@ -54,56 +49,7 @@ const AboutCard = () => {
         />
       </section>
 
-      <footer style={footerStyle}>
-        <ul
-          className="menuItems"
-          style={{
-            color: "black",
-            marginLeft: "10%",
-            paddingBottom: "2%",
-          }}
-        >
-          <li className="menuItem">Terms Of Use</li>
-          <li className="menuItem">About</li>
-          <li className="menuItem">Blog</li>
-          <li className="menuItem">FAQ</li>
-        </ul>
-
-        <div className="socialIcons">
-          <a
-            href="https://github.com/anushkabishnoi/ngo-project"
-            target="_blank"
-            rel="noopener noreferrer"
-            style={{ marginRight: "20px" }}
-          >
-            <span className="icon">
-              <FaGithub />
-            </span>
-          </a>
-
-          <a
-            href="mailto:protsahan.education@gmail.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            style={{ marginRight: "20px" }}
-          >
-            <span className="icon">
-              <FaEnvelope />
-            </span>
-          </a>
-
-          <a
-            href="https://twitter.com/PRAGYASHAH09"
-            target="_blank"
-            rel="noopener noreferrer"
-            style={{ marginRight: "20px" }}
-          >
-            <span className="icon">
-              <FaTwitter />
-            </span>
-          </a>
-        </div>
-      </footer>
+      
 
       {/* CSS media query to hide the header on smaller screens */}
       <style>
