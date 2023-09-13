@@ -12,12 +12,23 @@ const Header = () => {
   const navStyle = {
     flexDirection: click ? "column" : "row",
   };
+  const toggleMenu = () => {
+    setClick(!click);
+  };
 
   return (
     <div className="containerHeader">
       <Head />
       <header style={headerStyle}>
         <nav className={`flexSB ${click ? "active" : ""}`} style={navStyle}>
+          {/* Hamburger Icon */}
+          <button className="toggle" onClick={toggleMenu}>
+            {click ? (
+              <i className="fa fa-times"></i>
+            ) : (
+              <i className="fa fa-bars"></i>
+            )}
+          </button>
           <ul className="flex" onClick={() => setClick(false)}>
             <li>
               <NavLink to="/" exact activeClassName="active">
