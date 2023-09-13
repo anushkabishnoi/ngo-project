@@ -8,8 +8,35 @@ import "swiper/css/navigation";
 import "./Opportunities.css";
 // import required modules
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
+import axios from "axios";
+import { useState,useEffect } from "react";
+
+const options = {
+  method: 'GET',
+  url: 'https://jsearch.p.rapidapi.com/search',
+  params: {
+    query: 'Python developer in Texas, USA',
+    page: '1',
+    num_pages: '1'
+  },
+  headers: {
+    'X-RapidAPI-Key': '874c3d53ebmsh7f32a75d8046d27p173ca6jsn9efc84678dc5',
+    'X-RapidAPI-Host': 'jsearch.p.rapidapi.com'
+  }
+};
 
 export default function Opportunities() {
+  const [jobSearch, setJobSearch] = useState("");
+  useEffect(() => {
+    axios
+      .request(options)
+      .then(function(response) {
+        console.log(response.data);
+      })
+      .catch(function(error) {
+        console.error(error);
+      });
+  }, []);
   const progressCircle = useRef(null);
   const progressContent = useRef(null);
   const onAutoplayTimeLeft = (s, time, progress) => {
