@@ -152,3 +152,50 @@
 .guidename .mentor{
   color: #1eb2a6;
 }
+
+
+@media screen and (max-width: 768px) {
+
+  .heading-team{
+    position: relative; 
+    top: auto;
+    left: auto;
+    padding-top: 20px;
+  }
+
+  .profile-card {
+    width: 180px; 
+    height: 180px; 
+    margin: 20px; 
+  }
+
+  .team {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around; 
+    height: auto; 
+    padding-top: 110px;
+    padding-bottom: 50px;
+  }
+
+  .card-inner {
+    transform: rotateY(0deg);
+  }
+
+  .icon {
+    width: 30px;
+    height: 30px;
+  }
+
+  .caption h3 {
+    font-size: 18px; 
+  }
+
+  .caption p {
+    font-size: 14px;
+  }
+
+  .caption .social-links i {
+    font-size: 18px; 
+  }
+}

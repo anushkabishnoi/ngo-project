@@ -46,7 +46,7 @@ const Header = () => {
               </NavLink>
             </li>
             <li>
-              <NavLink to="/team" activeClassName="active">
+              <NavLink to="/ourTeam" activeClassName="active">
                 Team
               </NavLink>
             </li>

@@ -4,11 +4,11 @@
     padding: 20px;
     text-align: center;
   }
-  
-  /* Menu items */
+
   .menuItems {
     list-style-type: none;
     display: flex;
+    flex-wrap: wrap; 
     align-items: center;
     justify-content: center;
     gap: 15px;
@@ -16,17 +16,21 @@
   }
   
   .menuItem {
-    display: inline;
+    flex: 1; 
     margin-top: 20px;
-    margin-right: 100px; /* Adjust the spacing between menu items */
+    margin-right: 20px; 
     transition: all ease 0.3s;
     cursor: pointer;
     font-weight: bold;
     font-size: 1em;
-
-    &:hover {
-      color: #1eb2a6;
-    }
+  }
+  
+  .menuItem:last-child {
+    margin-right: 0; 
+  }
+  
+  .menuItem:hover {
+    color: #1eb2a6;
   }
 
   .infoText {
@@ -61,7 +65,7 @@
     }
   }
   
-  /* Icon styling */
+ 
   .icon {
     font-size: 24px; 
     margin: 0 10px; 
@@ -69,7 +73,7 @@
     text-decoration: none; 
   }
   
-  /* Icon hover effect */
+
   .icon:hover {
     opacity: 0.8; 
   }
