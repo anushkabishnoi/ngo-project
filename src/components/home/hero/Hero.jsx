@@ -1,4 +1,5 @@
 import { homeHero } from "../../../data";
+import { Link } from "react-router-dom";
 import "./Hero.css"
 
 const sectionStyle = {
@@ -23,9 +24,11 @@ const Hero = () => {
             <p className="text-lg md:text-xl pt-2 md:pt-4 leading-7">
               {item.content}
             </p>
-            <button className="text-lg md:text-xl cursor-pointer py-3 md:py-4 px-6 md:px-8 bg-highlight text-white font-semibold border-none mt-4 md:mt-6 rounded-lg shadow-md">
-              Let's get started!
-            </button>
+            <Link to="../schemes">
+              <button className="text-lg md:text-xl cursor-pointer py-3 md:py-4 px-6 md:px-8 bg-highlight text-white font-semibold border-none mt-4 md:mt-6 rounded-lg shadow-md">
+                Let's get started!
+              </button>
+            </Link>
           </div>
         ))}
       </section>

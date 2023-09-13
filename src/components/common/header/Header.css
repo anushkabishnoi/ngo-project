@@ -71,6 +71,14 @@ header ul li a:hover {
   header .nav {
     display: none;
   }
+<<<<<<< HEAD
+=======
+
+  header ul.flex{
+    display: none;
+  }
+
+>>>>>>> 104a8f6a1770cd31d0354aca937aa6130883f72b
   header ul li {
     font-size: 15px;
     margin-bottom: 4px;
@@ -81,8 +89,8 @@ header ul li a:hover {
     color: #fff;
     font-size: 30px;
     position: absolute;
-    right: 50px;
-    top: 20px;
+    right: 0px;
+    top: -20px;
   }
   .mobile-nav {
     position: absolute;
