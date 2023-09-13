@@ -37,9 +37,9 @@ header li {
 header ul {
   padding: 30px 20px;
 }
- .link-container{
-  /* display: flex; */
-}  
+ /* .link-container{
+  display: flex;
+}   */
 
 header ul li a {
   color: #fff;
@@ -73,11 +73,13 @@ header ul li a:hover {
     position: static;
   }
 
+
   header .nav {
     display: none;
   }
 
   header ul li {
+    font-size: 15px;
     margin-bottom: 4px;
   }
 
