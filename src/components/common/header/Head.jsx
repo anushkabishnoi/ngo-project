@@ -25,12 +25,12 @@ const Head = () => {
             <span>EDUCATE AND ELEVATE TOGETHER</span>
             </div>
           </div>
-          <div className="social">
+          {/* <div className="social">
             <i className="fab fa-github-f icon"></i>
             <i className="fab fa-instagram icon"></i>
             <i className="fab fa-twitter icon"></i>
             <i className="fab fa-youtube icon"></i>
-          </div>
+          </div> */}
         </div>
       </section>
     </>
