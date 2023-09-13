@@ -51,23 +51,30 @@ header ul li a:hover {
   .start {
     clip-path: none;
   }
-
   header {
     margin: 0;
     background-color: (0, 0, 0, 0.7);
     position: static;
   }
-
-
+  nav{
+    width: 96vw;
+    overflow: hidden;
+    margin: 0;
+    margin-left: 10px;
+    padding: 0;
+    left: 0;
+  }
+  .flexSB{
+    margin: 0;
+    padding: 0;
+  }
   header .nav {
     display: none;
   }
-
   header ul li {
     font-size: 15px;
     margin-bottom: 4px;
   }
-
   .toggle {
     display: block;
     background: none;
@@ -77,7 +84,6 @@ header ul li a:hover {
     right: 50px;
     top: 20px;
   }
-
   .mobile-nav {
     position: absolute;
     top: 7vh;

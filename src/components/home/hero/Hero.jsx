@@ -1,4 +1,5 @@
 import { homeHero } from "../../../data";
+import "./Hero.css"
 
 const sectionStyle = {
   height: "100vh",
@@ -13,7 +14,7 @@ const sectionStyle = {
 const Hero = () => {
   return (
     <>
-      <section style={sectionStyle}>
+      <section className="home-hero-section w-screen" style={sectionStyle}>
         {homeHero.map((item) => (
           <div className="px-7">
             <h1 className="text-3xl md:text-7xl font-bold pt-5 md:pt-20">
