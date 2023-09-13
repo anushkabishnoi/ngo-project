@@ -24,15 +24,10 @@ function App() {
         <Route exact path="/opportunities" component={opportunities} />
 
         <Route>
-          <Header/>
-        <Route exact path="/about" component={About} />
-        </Route>
-
-        <Route>
           <Header />
           <Switch>
             <Route exact path="/" component={Home} />
-            {/* <Route exact path="/about" component={About} /> */}
+            <Route exact path="/about" component={About} />
             {/* Add more routes for other pages */}
           </Switch>
           <Footer />
