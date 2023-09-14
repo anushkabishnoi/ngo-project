@@ -9,34 +9,36 @@ import "./Opportunities.css";
 // import required modules
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
 import axios from "axios";
-import { useState,useEffect } from "react";
+import { useState, useEffect } from "react";
 
 const options = {
-  method: 'GET',
-  url: 'https://jsearch.p.rapidapi.com/search',
+  method: "GET",
+  url: "https://jsearch.p.rapidapi.com/search",
   params: {
-    query: 'Python developer in Texas, USA',
-    page: '1',
-    num_pages: '1'
+    query: "Python developer in Texas, USA",
+    page: "1",
+    num_pages: "1",
   },
   headers: {
-    'X-RapidAPI-Key': '874c3d53ebmsh7f32a75d8046d27p173ca6jsn9efc84678dc5',
-    'X-RapidAPI-Host': 'jsearch.p.rapidapi.com'
-  }
+    "X-RapidAPI-Key": "874c3d53ebmsh7f32a75d8046d27p173ca6jsn9efc84678dc5",
+    "X-RapidAPI-Host": "jsearch.p.rapidapi.com",
+  },
 };
 
 export default function Opportunities() {
-  const [jobSearch, setJobSearch] = useState("");
+  const [fetchedData, setFetchedData] = useState([]);
   useEffect(() => {
     axios
       .request(options)
-      .then(function(response) {
+      .then(function (response) {
         console.log(response.data);
+        setFetchedData(response.data);
       })
-      .catch(function(error) {
+      .catch(function (error) {
         console.error(error);
       });
   }, []);
+
   const progressCircle = useRef(null);
   const progressContent = useRef(null);
   const onAutoplayTimeLeft = (s, time, progress) => {
@@ -45,7 +47,7 @@ export default function Opportunities() {
   };
   return (
     <>
-      <Swiper
+    <Swiper
         spaceBetween={30}
         centeredSlides={true}
         autoplay={{
@@ -132,6 +134,21 @@ export default function Opportunities() {
           <span ref={progressContent}></span>
         </div>
       </Swiper>
+      <div className="fetched-data">
+        {Array.isArray(fetchedData) ? (
+          fetchedData.map((item, index) => (
+            <div key={index} className="fetched-item">
+              <h2>{item.employer_name}</h2>
+              <div className="company-type"></div>
+              <p>
+                <a href={item.employer_website}>website</a>
+              </p>
+            </div>
+          ))
+        ) : (
+          <p>No data available</p>
+        )}
+      </div>
     </>
   );
 }
