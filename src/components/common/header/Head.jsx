@@ -18,7 +18,7 @@ const Head = () => {
                 }}
               />
               <div style={{ marginTop: '-40px', marginLeft: '-20px', }}> {/* Adjust the margin values */}
-                <h1 className="text-4xl font-black">Protsahan</h1>
+                <h1 className="text-5xl font-black">प्रोत्साहन</h1>
               </div>
             </div>
             <div style={{ marginTop: '-45px', marginLeft: '-15px', }}> 
